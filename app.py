@@ -53,7 +53,7 @@ if uploaded_file is not None:
     ax.axhline(y=high_risk_threshold_normalized, color='red', linestyle='--', 
                label=f'High Risk Threshold ({high_risk_threshold_normalized:.4f})')
     
-    ax.set_title('Normalized Stress Corrosion Probability Score vs. Stationing (m) in df_scc_II for CHAKSU MATHURA SECTION')
+    ax.set_title('Normalized Stress Corrosion Probability Score vs. Stationing (m) in df_scc_II for CHAKSU PANIPAT SECTION')
     ax.set_xlabel('Stationing (m)')
     ax.set_ylabel('Normalized Stress Corrosion Probability Score')
     ax.legend()
