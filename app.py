@@ -18,7 +18,7 @@ if uploaded_file is not None:
 
     # 2. Normalize 'Distance from Pump(KM)'
     scaler_distance = MinMaxScaler()
-    df_scc_II['Normalized_Distance_from_Pump(KM)'] = scaler_distance.fit_transform(df_scc_II[['Distance from Pump(KM)']])
+    df_scc_II['Normalized_Distance_from_Pump(KM)'] = scaler_distance.fit_transform(df_scc_II[['Wd (ID)']])
 
     # 3. Normalize 'OFF PSP (VE V)'
     scaler_off_psp = MinMaxScaler()
